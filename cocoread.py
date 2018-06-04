@@ -34,17 +34,17 @@ def logError(text):
 def helpmessage():
     helpMessage = """
 ╔═══════════
-╠♥ ✿ CoCo指令表 ✿ ♥
+╠♥ ✿ 旯旮特製指令表 ✿ ♥
 ╠➥ 「Speed」查看機器速度
 ╠➥ 「Set」查看設定
 ╠➥ 「Reread On/Off」查看收回 打開/關閉
 ╠➥ 「Setread」設定已讀點
 ╠➥ 「Lookread」查詢已讀點
 ╠➥ 「Tagall」標註全部人
-╚═〘 Credits By: ©CoCo™  〙
+╚═〘 Credits By: @C  〙
 """
     return helpMessage
-admin=['u28d781fa3ba9783fd5144390352b0c24',clMID]
+admin=['uddaf7a750720baa325fd6bd6d5c9151f',clMID]
 def lineBot(op):
     try:
         if op.type == 0:
