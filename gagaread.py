@@ -35,13 +35,13 @@ def helpmessage():
     helpMessage = """
 ╔═══════════
 ╠♥ ✿ 旯旮特製指令表 ✿ ♥
-╠➥ 「Speed」查看機器速度
+╠➥ 「」查看機器速度
 ╠➥ 「Set」查看設定
 ╠➥ 「Reread On/Off」查看收回 打開/關閉
 ╠➥ 「Setread」設定已讀
 ╠➥ 「Lookread」查詢已讀點
 ╠➥ 「Tagall」標註全部人
-╚═〘 Credits By: @C  〙
+╚═〘 Credits By: @CoCo  〙
 """
     return helpMessage
 admin=['uddaf7a750720baa325fd6bd6d5c9151f',clMID]
@@ -93,7 +93,7 @@ def lineBot(op):
                         cl.sendMessage(msg.to, "||已讀的人||%s\n[%s]" % (wait2['readMember'][msg.to],setTime[msg.to]))
                     else:
                         cl.sendMessage(msg.to, "請輸入SR設置已讀點")
-                elif text.lower() == 'speed':
+                elif text.lower() == 's':
                     time0 = timeit.timeit('"-".join(str(n) for n in range(100))', number=10000)
                     str1 = str(time0)
                     start = time.time()
